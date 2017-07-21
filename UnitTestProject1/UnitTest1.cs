@@ -33,6 +33,19 @@ namespace UnitTestProject1
             Assert.AreNotEqual(0, BMI);
 
         }
+        [TestMethod]
+        public void TestMethod3()
+        {
+            //Arrange
+            var controller = new ValuesController();
+
+            //Act
+            Double BMI = controller.CalculeBMI(0, 1.75);
+
+            //Assert
+            Assert.AreNotEqual(0, BMI);
+
+        }
 
     }
 }
