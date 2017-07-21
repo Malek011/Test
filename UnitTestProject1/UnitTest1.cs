@@ -43,7 +43,7 @@ namespace UnitTestProject1
             Double BMI = controller.CalculeBMI(63, 1.75);
 
             //Assert
-            Assert.AreNotEqual(0, BMI);
+            Assert.AreNotEqual(0,  BMI);
 
         }
 
