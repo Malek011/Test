@@ -27,8 +27,8 @@ namespace UnitTestProject1
             var controller = new ValuesController();
 
             //Act
-            Double BMI = controller.CalculeBMI(0, 1.75);
-       
+            Double BMI = controller.CalculeBMI(63, 1.75);
+
             //Assert
             Assert.AreNotEqual(0, BMI);
 
@@ -40,7 +40,7 @@ namespace UnitTestProject1
             var controller = new ValuesController();
 
             //Act
-            Double BMI = controller.CalculeBMI(0, 1.75);
+            Double BMI = controller.CalculeBMI(63, 1.75);
 
             //Assert
             Assert.AreNotEqual(0, BMI);
